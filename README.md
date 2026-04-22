@@ -2,7 +2,7 @@ MERGED EX1
 
 # GitExercise_Conflicts
 
-<<<<<<< HEAD
+
 
 ## Purpose
 To teach you to deal with git merge conflicts in 
@@ -20,14 +20,14 @@ Note that this is different than your previous exercises... they were on GitHub 
 This repo contains two branches: main and ex1. There is a single line text conflict in one cell between the two branches, as well as other line differences that do not conflict.
 
 Below is a graph of the commit situation in the repo right now... each * indicates a commit and the lines show the evolution of the repo over time
-=======
+
 This exercise assumes you are using the COGS 108 Datahub setup.  But you can do everything here using your own computer if you set it up with the same tools (which is recent Jupyterlab with the git extension built on nbdime). If you are using git command line or VSCode, or something else entirely then you can still do this exercise, but the step by step insructions will need to be adapted to your tools.  There is always more than one way to get something done, just learn and use the tool that you prefer!
 
 This repo contains two branches: main and ex1. There is a single line text conflict in one cell between the two branches. The goal of this exercise is 
 two-fold; to learn how to stage and commit changes to a branch and then to learn how to merge the changes from one branch to another.
 
 Below is a graph of the commit situation in the repo right now... the commits on each branch have produced a single line conflict you need to deal with before merging
->>>>>>> ex1
+
 
 ```
 ----*----*[main]
@@ -55,7 +55,7 @@ And after Part 2 the new graph will look like
       \----*------/
 ```
 
-<<<<<<< HEAD
+
 ## Setup this stuff first
 1. Fork this repo by pressing the Fork button at the top of this webpage
      - When forking **UNCHECK** the default option to "Copy the main branch only". You want all the branches!
@@ -124,7 +124,7 @@ On the top left of the git panel are a set of cloud icons, one with the arrow po
   
 ## Congrats!! 
 You've dealt with a simple version of the notebook conflict problem. This workflow will happen in your projects all the time, when person A and person B need to merge their seperate parts of the project together into the final project. 
-=======
+
 To work on this exercise:
 - Fork this repo by pressing the Fork button at the top of this webpage.  When you fork it MAKE SURE you **UNCHECK** the default option to "Copy the main branch only". You want all the branches!
 -  Forking this repo made a copy of this repo on YOUR GitHub. You own this fork, you can change it however you like.
@@ -172,6 +172,6 @@ Finally
 - **IF YOU DON'T PUSH AT THE END OF THE EXERCISE YOU WILL LOSE POINTS ON THE AUTOGRADER** 
   
 Congrats!! You've dealt with a simple version of the notebook conflict problem. This workflow will happen in your projects all the time, when person A and person B need to merge their seperate parts of the project together into the final project. 
->>>>>>> ex1
+
 
 Another common project workflow is if there's a red dot on pull (down arrow) that means someone else made changes to the remote that you don't have.  Pull operations need to be done before push operations... so if someone changed the remote after your clone but before your push you will have to pull first, merge, and resolve any conflicts before you are allowed to push your changes to remote.  We didn't have to do that here, but its a very normal workflow for your projects.
